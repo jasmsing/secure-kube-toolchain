@@ -18,8 +18,7 @@
 	    "description": {
               "$ref": "#/messages/deploy.regionDescription"
             },
-            "type": "string",
-	    "disabled": false
+            "type": "string"
         },
        "api-key": {
             "description": {
@@ -74,7 +73,6 @@
 	{
           "type": "select",
           "key": "prod-region",
-	  "readonly": true,
            "title": {
             "$ref": "#/messages/region"
           }
